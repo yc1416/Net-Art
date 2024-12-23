@@ -1,0 +1,115 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 130px;
+  }
+  
+  .search-box input {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .search-box button {
+    padding: 5px 10px;
+    background-color: #ff007f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Menu styles */
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #ff007f;
+  }
+  
+  .menu ul li {
+    margin: 0;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #ff66a1;
+  }
+  
+  /* Banner styles */
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Content styling */
+  .content {
+    padding: 20px;
+  }
+  
+  .jian h2, .representative-works h2 {
+    color: #ff007f;
+    margin-bottom: 20px;
+  }
+  
+  .js, .work {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .js img, .work img {
+    width: 200px; /* Adjusted smaller size for home page images */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+  }
+  
+  .bt h3, .work h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .bt p {
+    font-size: 14px;
+    color: #666;
+    max-width: 600px;
+  }
+  
+  /* Footer styles */
+  .end {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  
